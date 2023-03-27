@@ -78,5 +78,22 @@ img {
     height: 150px;
     width: 150px;
     border: 5px solid blue;
-    border-radius: 10px;
+    border-radius: 15px;
+}
+
+.itemContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px; 
+}
+
+.itemText {
+    text-align: center; 
+    padding: 10px 0px;
+    color: #1F2937;
 }
